@@ -1,0 +1,27 @@
+h1 {
+    color: blue;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.slide {
+    position: relative;
+}
+
+.pav-1 {
+    width: 100%;
+}
+
+.slide h2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: white;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    text-shadow: 5px 5px 15px #054641;
+}
