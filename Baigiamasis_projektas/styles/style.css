@@ -1,6 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+body {
+    font-family: "Kumbh Sans", sans-serif;
+}
+
 .container {
     width: 100%;
     max-width: 1280px;
+    margin: 0 auto;
+}
+
+.smaller-container {
+    width: 100%;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -39,6 +51,7 @@
 
 .menu li a {
     text-decoration: none;
+    color: #4A556C;
 }
 
 .menubutton {
@@ -48,41 +61,127 @@
     background-color:rgba(32, 173, 150, 1);
     color: #ffffff;
     text-decoration: none;
-    border-radius: 5px
-    
-    
+    border-radius: 5px;
+    border: none;
 }
 
-
-h2 {
-    color: rgba(51, 52, 97, 1);
+.intro {
+    background-color: #FAF8F6;
+    padding-top: 55px;
 }
 
-.article .container {
+.intro .container {
     display: flex;
     justify-content: space-between;
-    
+    column-gap: 180px;
+}
+
+.intro .container img.abstract1 {
+    margin-left: -50px;
+}
+
+.intro .container .intro-photo {
+    margin-right: 90px;
+}
+
+.intro .container .intro-photo img {
+    position: relative;
+    top: 26px;
+}
+
+h2 {
+
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.01em;
+    color:rgba(51, 52, 97, 1) ;
+
+}/* I can help you in these particular areas. */
+
+
+
+
+
+
+
+.article {
+    padding-top: 106px;
+}
+
+.article .smaller-container {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 74px;
 
 }
 
 .artical-title {
-    width: 44%;
-    margin: 45px;
+    /* width: 44%; */
+    /* margin: 45px; */
 }
 
 .article-content p {
-    width: 47%; 
-    margin: 55px;
+    /* width: 47%;  */
+    margin-right: 106px;
     color: #4A556C;
     align-content: center;
 }
 
 h1 {
     color: rgba(51, 52, 97, 1);
+    font-family: 'Kumbh Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 72px;
+line-height: 120%;
+letter-spacing: -0.01em;
+
 }
 
 .footer .container {
     display: flex;
+    width: 1,216px
+    height: 24px
+    justify-content: space-between;
+    
+
+
+
+
     
 }
 
+.hr .solid {
+   
+width: 1216px;
+height: 1px;
+background: #E4E7EC;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+ .social-link img {
+    column-gap: 87px;
+    justify-content: space-between;
+ }
+
+
+/* h1 texto stiliai */
+
+/* 
+
+font-family: 'Kumbh Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 72px;
+line-height: 120%;
+letter-spacing: -0.01em;
+
+color: #333461;
+
+*/
