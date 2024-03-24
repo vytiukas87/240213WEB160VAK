@@ -99,8 +99,7 @@ h2 {
     letter-spacing: -0.01em;
     color:rgba(51, 52, 97, 1) ;
 
-}/* I can help you in these particular areas. */
-
+}
 
 
 
@@ -146,13 +145,18 @@ letter-spacing: -0.01em;
     width: 1,216px
     height: 24px
     justify-content: space-between;
-    
 
-
-
-
-    
 }
+
+ul {
+    list-style-type: none; 
+  }
+
+  .social-icons .a image {
+
+    margin-right: auto;
+  }
+
 
 .hr .solid {
    
@@ -165,23 +169,52 @@ align-self: stretch;
 flex-grow: 0;
 
 }
- .social-link img {
-    column-gap: 87px;
+
+.social-icons a {
+    text-align: right;
+    align-items: right;
+}
+
+.intro-text p {
+    color: rgba(74, 85, 108, 1);
+}
+
+.social-icons  {
+    text-align: right; 
+  }
+  .icon-link {
+    display: inline-block; 
+    margin-left: 10px; 
+  }
+
+  
+  .fab {
+    font-size: 24px; 
+  }
+
+  .totam h2 {
+    text-align: center; 
+  margin: 0 auto; 
+  max-width: 600px;
+  margin-top: 15%; 
+  }
+ 
+  .block {
+    display: flex;
     justify-content: space-between;
- }
+    margin-top: 5%;
+    
+  }
 
+  .block h3 {
+    color: rgba(51, 52, 97, 1) ;
+  }
 
-/* h1 texto stiliai */
+  .block .container img {
+    justify-content: space-between;
+    align-items: center;
+    
+  }
 
-/* 
+  
 
-font-family: 'Kumbh Sans';
-font-style: normal;
-font-weight: 800;
-font-size: 72px;
-line-height: 120%;
-letter-spacing: -0.01em;
-
-color: #333461;
-
-*/
